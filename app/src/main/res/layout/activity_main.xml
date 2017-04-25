@@ -6,7 +6,7 @@
     <android.support.v7.widget.Toolbar
         android:layout_alignParentTop="true"
         android:id="@+id/toolbar"
-        android:background="#fff000"
+        android:background="#994455"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize" />
@@ -23,6 +23,7 @@
             android:id="@+id/appbar_layout">
             <android.support.design.widget.TabLayout
                 android:clickable="true"
+                android:background="#887755"
                 app:layout_scrollFlags="scroll|enterAlways"
                 android:id="@+id/tabs"
                 app:tabMaxWidth="0dp"
